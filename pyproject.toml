@@ -1,6 +1,6 @@
 [project]
 name = "salesmatrix"
-version = "0.1.0"
+version = "0.7.4"
 description = "Para demonstrar as minhas habilidades a recrutadores e clientes, o projeto ideal é uma Plataforma Inteligente de Gestão e Predição de Vendas. Este projeto integra o ciclo completo: coleta de dados (Django), armazenamento robusto (SQL/PostgreSQL), análise preditiva (Python/ML) e visualização executiva (Power BI e Streamlit)."
 authors = [
     {name = "Deyved Antonio",email = "deyved.antonio@gmail.com"}

@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "produtos",
     "vendas",
     "vendedores",
-    "categoria",
+    "categorias",
+    "segmentos",
 ]
 
 MIDDLEWARE = [

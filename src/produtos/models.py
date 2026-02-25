@@ -18,6 +18,14 @@ class Product(models.Model):
     unit_price = models.DecimalField(
         verbose_name='Preço Unitário do Produto',
     )
+    created_at = models.DateField(
+        auto_now_add=True,
+        verbose_name='Data de Criação'
+    )
+    modified = models.DateField(
+        auto_now=True,
+        verbose_name='Data de Modificação'
+    )
 
     class Meta:
 

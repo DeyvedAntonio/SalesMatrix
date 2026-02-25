@@ -17,6 +17,8 @@ class Product(models.Model):
     )
     unit_price = models.DecimalField(
         verbose_name='Preço Unitário do Produto',
+        max_digits=7,
+        decimal_places=2,
     )
     created_at = models.DateField(
         auto_now_add=True,
